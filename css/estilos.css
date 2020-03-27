@@ -1,0 +1,274 @@
+/*MadeIt By Jorabi*/
+*{
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing: border-box;
+}
+
+body{
+  background: #27221d;
+  color: white;
+  /*color: #4b4541;*/
+  height: 2000px;
+  /*----------------COLORES (RATON POR ENCIMA)----------------------*/
+  /*background: #151210; Negrisimo    HEADER*/
+  /*background: #27221d; Negrito      FONDO*/
+  /*background: #312b27; Negro        BOTON FOLLOW / CAJA DE PUBLICAR ANUNCIO*/
+  /*background: #3e3833; Negro light  SUB-FONDO (cajas de comentario etc)*/
+  /*----------------COLORES (RATON POR ENCIMA)----------------------*/
+  /*background: #003864; azul*/
+  /*background: #00c0ff; celeste Claro*/
+  /*background: #ff004e; rosa*/
+  /*background: white; LETRAS (blancas)*/
+}
+header{
+  background: #151210;
+  width: 100%;
+  height: 50px;
+  position: fixed;
+}
+.title{
+  height: 100%;
+  margin-left: 3px;
+  width: 28%;
+  max-width: 240px;
+  display: inline-block;
+  color: white;
+  font-size: 80%;
+  /*background: red;*/
+  text-align: center;
+  padding-top: 12px;
+}
+header nav{
+  display: inline-block;
+  float: right;
+  height: 100%;
+  width: 40%;
+  max-width: 300px;
+  margin-right: 10%;
+}
+nav ul{
+  text-align: center;
+  height: 100%;
+}
+nav li{
+  display: inline-block;
+  height: 100%;
+  font-size: 17px;
+}
+nav li a{
+  color: white;
+  display: block;
+  height:100%;
+  padding:3px;
+  padding-top: 15px;
+  text-decoration:none;
+}
+nav li a:hover{
+  background:#00c0ff;
+  /*background: lightblue;*/
+  /*background: #003864; azul*/
+  /*background: #00c0ff; celeste CLArO*/
+  /*background: #ff004e; rosa*/
+}
+/*----------------------------------------*/
+
+.user-wrapper{
+  background: #3e3833;
+  height: 19%;
+}
+.portada{
+  background: gray;
+  height: 75%;
+}
+.personal-info{
+  height: 23%;
+  width: 100%;
+  /*border: solid red 1px; /*ubicacion*/
+  position: absolute;
+  top: 26%;
+}
+.personal-info img{
+  height: 100%;
+  border: solid green;
+  margin-left: 10%;
+  border-radius: 50%;
+}
+.personal-info span{
+  position: absolute;
+  top: 50%;
+  margin-left: 1%;
+  font-size: 23px;
+  text-shadow: solid;
+}
+.interacttive-buttons{
+  /*border:solid blue 1px;*/
+  width: 100%;
+  height: 20%;
+  margin-top: 17.5px;
+}
+
+.interacttive-buttons ul{
+  height: 55px;
+  width: 235px;
+  margin-top: 20px;
+  margin-left:310px;
+  text-align: center;
+  position: absolute;
+}
+.interacttive-buttons ul li{
+  display: inline-block;
+  height: 100%;
+  width: 30%;
+  margin: 2px;
+  padding-top:7px;
+}
+.interacttive-buttons ul li a{
+  display: block;
+  color: white;
+  height: 100%;
+  text-decoration: none;
+  font-size: 18px;
+  background:#312b27;
+  padding-top: 10px;
+}
+.interacttive-buttons ul li a:hover{
+  background-color: #00c0ff;
+}
+.followers{
+  background: red;
+  display: inline-block;
+  float:right;
+  margin-top: 25px;
+  margin-right: 3%;
+  width: 22%;
+  height: 25px;
+  border-radius: 2px;
+  text-align: center;
+}
+.followers a{
+  margin-top: 0.5px;
+  display: inline-block;
+  width: 67%;
+  height: 96%;
+  float: left;
+  margin-left: 2px;
+  text-decoration: none;
+}
+.followers span{
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width:31.5%;
+}
+/*---------------------------------------------------*/
+
+.categories{
+  display: inline-block;
+  background:#3e3833;
+  height: 28%;
+  width: 80%;
+  margin-top: 1%;
+  margin-left: 10%;
+}
+.categories h2{ /*TITULO*/
+  display: inline-block;
+  background:rgba(150,150,150,0.3);
+  margin-left: 5%;
+  margin-top: 20px;
+}
+.tbProducts{ /*TABLA PRODUCTOS*/
+  margin-left: 5%;
+  margin-top: 5px;
+  border:none;
+}
+.tbProducts tr td{
+  height: 150px;
+  text-align:center;
+}
+/*----------------------INDEX CONTENT------------------------------*/
+.add-wrapper{
+  margin-top: 2%;
+  width: 60%;
+  height: 4%;
+  margin-left: 20%;
+  background-color: #3e3833;
+  border-radius: 10px;
+}
+.add-post{
+  background: #312b27;
+  color: white;
+  height: 70%;
+  width: 83%;
+  text-align: center;
+  border-radius: 10px;
+  margin-left: 3%;
+  margin-top: 10px;
+  float: left;
+}
+.profile-thumb{
+  border-radius: 50%;
+  margin-top: 18px;
+  margin-left: 3%;
+  background-color: red;
+  float: left;
+}
+.post{
+  width: 60%;
+  height: 24%;
+  margin-left: 20%;
+  margin-top: 1%;
+  background-color:#3e3833;
+  border-radius: 10px;
+}
+.post-meta{
+  width: 100%;
+  height: 20%;
+  border-radius:10px;
+}
+.post-meta img{
+  width: 70px;
+  margin-left:3%;
+  margin-top: 10px;
+  border-radius: 50%;
+  float:left;
+}
+.post-meta .meta-follow{
+  width: 100px;
+  height: 30px;
+  margin-top: 19px;
+  margin-left:80px;
+  background:#312b27;
+  float: left;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  border: solid 1px;
+  border-color:#00c0ff;
+}
+.post-meta .nickname{
+  display: inline-block;
+  margin: 1%;
+  margin-top: 20px;
+  font-size: 19px;
+  float:left;
+}
+.post-meta .hashname{
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 19px;
+  color: gray;
+  float: left;
+}
+.post-content{
+  display: inline-block;
+  width: 93%;
+  height: 55%;
+  margin-left: 3%;
+  background:rgba(150,150,150,0.3);
+  padding: 4%;
+  border-radius: 5px;
+}
